@@ -35,6 +35,7 @@ bsub /path/to/script
 	-I interactive job
 	-J Set jobname
 	-n number of cores
+	-M memory
 	-q select queue
 	-R reserve resource
 	    - Memory: '-R "select[mem>20000] rusage[mem=20000] span[hosts=1]"'
