@@ -165,7 +165,6 @@ done
 
 # Useful links
 - [Farm FAQ](https://ssg-confluence.internal.sanger.ac.uk/display/FARM)
-- [LSF cheat sheet](https://www.med.upenn.edu/hpc/assets/user-content/documents/lsf-quick-reference_user_commands.pdf)
 - [LSF command reference](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=reference-command)
 - [LSF quick start guide](https://www.ibm.com/docs/en/spectrum-lsf/10.1.0?topic=started-quick-start-guid)
 - [Ganglia](https://ganglia.internal.sanger.ac.uk/ganglia/)
