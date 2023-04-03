@@ -39,10 +39,9 @@ bsub /path/to/script
 	-R reserve resource
 	    - Memory: '-R "select[mem>20000] rusage[mem=20000] span[hosts=1]"'
 	-G user group
-	    - Jaron: 'team_360-grp'
-        - Add to .bashrc: 'export LSB_DEFAULTGROUP=your-group'
+        	- Add to .bashrc: 'export LSB_DEFAULTGROUP=your-group'
         
-# Interactive example (..what is -s?)
+# Interactive example
 bsub -Is bash
 bsub -G team360-grp -Is -n 16 -M 10240 -R "select[mem>10240] rusage[mem=10240]" bash -l 
 	
