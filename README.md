@@ -10,7 +10,7 @@ Team software directory
 ```
 DTOL genome directory
 ```
-/lustre/scratch/124/tol/projects/darwin/data
+/lustre/scratch124/tol/projects/darwin/data
 ```
 
 # Farm commands
@@ -44,7 +44,7 @@ bsub /path/to/script
         
 # Interactive example
 bsub -Is bash
-bsub -G team360-grp -Is -n 16 -M 10240 -R "select[mem>10240] rusage[mem=10240]" bash -l 
+bsub -G team360 -Is -n 16 -M 10240 -R "select[mem>10240] rusage[mem=10240]" bash -l 
 	
 # Job array example
 bsub -J “jobname[1-100]%10” -o output.%J.%I /my/script.sh
